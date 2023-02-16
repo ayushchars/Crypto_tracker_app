@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import Coins from './Coins'
 
-function Coin_data() {
+function Coindata() {
     const [coins, setcoins] = useState([])
     const [search, setsearch] = useState("")
     useEffect(() => {
@@ -43,4 +43,4 @@ function Coin_data() {
     )
 }
 
-export default Coin_data
+export default Coindata
